@@ -1,0 +1,19 @@
+/* ---  HEADER --- */
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 10px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
